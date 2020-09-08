@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WelcomeMenuScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CreditsMenuScene.unity
+    guid: 52cfe1fb2168d1e46a7d2b17eb02fb0e
+  - enabled: 1
+    path: Assets/Scenes/ConfigurationMenuScene.unity
+    guid: fbaa291225968814cbc6c014d85a9524
+  - enabled: 1
+    path: Assets/Scenes/Ch1TheRightWayScene.unity
+    guid: a993e0b195db5074c8bda359b8c44f7c
+  m_configObjects: {}

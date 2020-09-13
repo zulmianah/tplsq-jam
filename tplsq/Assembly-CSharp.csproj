@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ch1Puzzle1.cs" />
     <Compile Include="Assets\Scripts\Ch1Puzzle1Manager.cs" />
+    <Compile Include="Assets\Scripts\Ch2Puzzle2.cs" />
+    <Compile Include="Assets\Scripts\Ch2Puzzle2Control.cs" />
     <Compile Include="Assets\Scripts\Choice Button.cs" />
     <Compile Include="Assets\Scripts\InkExample.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />

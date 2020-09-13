@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ch1TheRightWayScene.unity
     guid: a993e0b195db5074c8bda359b8c44f7c
+  - enabled: 1
+    path: Assets/Scenes/Ch1Puzzle1.unity
+    guid: 68ea9366f8d7ce6429c6a1a9ea4b76e4
+  - enabled: 1
+    path: Assets/Scenes/Ch2AFlyingFriend.unity
+    guid: d745bb363b0cbad4aa96a89e435f3854
+  - enabled: 1
+    path: Assets/Scenes/Ch2Puzzle1.unity
+    guid: 6d967c1b14bbc144cbe00415304d9172
   m_configObjects: {}

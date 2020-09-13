@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Ch1Puzzle1Manager.cs" />
     <Compile Include="Assets\Scripts\Choice Button.cs" />
     <Compile Include="Assets\Scripts\InkExample.cs" />
+    <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MySceneManager.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Bank\{16b770c2-13c5-4035-b23c-a07e9eb8929c}.xml" />

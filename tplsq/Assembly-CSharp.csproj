@@ -63,40 +63,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Ch1Puzzle1.cs" />
+    <Compile Include="Assets\Scripts\Choice Button.cs" />
+    <Compile Include="Assets\Scripts\InkExample.cs" />
     <Compile Include="Assets\Scripts\MySceneManager.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Bank\{16b770c2-13c5-4035-b23c-a07e9eb8929c}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EncodingSetting\{d11d89d5-fc2e-4e1d-ac27-70417700bdb9}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EffectPresetFolder\{602d88ca-3cdd-4ae3-ade3-7af0c7500898}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Workspace.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\ParameterPresetFolder\{86a70bf0-e7da-4f46-8212-aedd51a210aa}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Mixer.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EventFolder\{00674f6b-50db-432a-a309-a761cb6c88f2}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Return\{6ebe7c4e-fcb3-476b-a9e0-51da89a8b74f}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Asset\{0215f46e-0dd1-40b0-9820-2bc766b5837d}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Platform\{3e7e1d2c-e564-4cda-a887-c12654f1c32a}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\BankFolder\{6f76266f-b88a-4aa4-996e-e76603f5da13}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Master.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Tags.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\SnapshotGroup\{64326914-863c-45d5-91be-759c6d8f78e7}.xml" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Documents/tplsq jam/tplsq/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

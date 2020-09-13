@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: haha
+    uniqueID: 753636915
+    locked: 0
+  - name: test
+    uniqueID: 637274017
+    locked: 0

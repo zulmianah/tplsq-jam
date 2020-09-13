@@ -186,7 +186,7 @@ namespace Ink.UnityIntegration {
         }
 		public static void CompileInk (InkFile[] inkFiles, bool immediate, Action onComplete) {
 			#if UNITY_2019_1_OR_NEWER
-			AssetDatabase.DisallowAutoRefresh();
+			//AssetDatabase.DisallowAutoRefresh();
 			#endif
             
 			InkLibrary.Validate();
@@ -415,7 +415,7 @@ namespace Ink.UnityIntegration {
 			#endif
 			
 			#if UNITY_2019_1_OR_NEWER
-			AssetDatabase.AllowAutoRefresh();
+			//AssetDatabase.AllowAutoRefresh();
 			#endif
 
             // This is now allowed, if compiled manually. I've left this code commented out because at some point we might want to track what caused a file to compile. 

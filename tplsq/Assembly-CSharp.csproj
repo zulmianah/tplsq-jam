@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraUpdater.cs" />
     <Compile Include="Assets\Scripts\Ch1Puzzle1.cs" />
     <Compile Include="Assets\Scripts\Ch1Puzzle1Manager.cs" />
     <Compile Include="Assets\Scripts\Ch2Puzzle2.cs" />
@@ -71,8 +72,10 @@
     <Compile Include="Assets\Scripts\InkExample.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MySceneManager.cs" />
+    <Compile Include="Assets\Scripts\Patrol.cs" />
     <Compile Include="Assets\Scripts\PipeMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerControler.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Bank\{16b770c2-13c5-4035-b23c-a07e9eb8929c}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EncodingSetting\{d11d89d5-fc2e-4e1d-ac27-70417700bdb9}.xml" />

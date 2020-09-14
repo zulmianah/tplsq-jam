@@ -19,7 +19,7 @@ public class PlayerControler : MonoBehaviour
     {
         if (Input.GetKeyDown("space") && !dead)
         {
-            bird.velocity = new Vector2(0, 8.5f);
+            bird.velocity = new Vector2(0, 10f);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

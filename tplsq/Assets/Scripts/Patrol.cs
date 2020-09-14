@@ -5,7 +5,7 @@ using UnityEngine;
 public class Patrol : MonoBehaviour
 {
     public float speed;
-    private float distance;
+    private float distance = new float();
     private bool movingRight = true;
     public Transform groundDetection;
     // Start is called before the first frame update

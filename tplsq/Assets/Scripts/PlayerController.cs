@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,20 +13,43 @@ public class PlayerController : MonoBehaviour
     private bool facingRight = true, isGrounded;
 
     public Transform groundCheck;
+
     public float checkRadius;
     public LayerMask whatIsGround;
 
     private int extraJumps;
     public int extraJumpsValue;
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Reward")
+        {
+            Reward();
+        }
+        if (collision.gameObject.tag == "Trap")
+        {
+            Start();
+        }
+    }
+
+    public void Reward()
+    {
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Vector2 v = transform.position;
+        v.x = -3.52f;
+        v.y = 2.26f;
+        transform.position = v;
     }
     private void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 

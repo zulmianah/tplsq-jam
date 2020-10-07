@@ -17,6 +17,7 @@ public class Ch1Puzzle1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.PlayMusicSelector(1);
         Single[] deg = { 0f, 90f, 270f };
         var ran = new System.Random();
         int id;

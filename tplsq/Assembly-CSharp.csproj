@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioLoader.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\CameraUpdater.cs" />
     <Compile Include="Assets\Scripts\Ch1Puzzle1.cs" />
     <Compile Include="Assets\Scripts\Ch1Puzzle1Manager.cs" />
@@ -77,19 +79,36 @@
     <Compile Include="Assets\Scripts\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\VolumeManager.cs" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{691f1efa-1887-4201-bbba-30dc1d5b3478}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EventFolder\{0bf7ff53-5b3a-45b2-9652-4bfef75d7990}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Bank\{16b770c2-13c5-4035-b23c-a07e9eb8929c}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EncodingSetting\{d11d89d5-fc2e-4e1d-ac27-70417700bdb9}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Group\{5084d20f-7e46-4dd2-9b64-0134aec5788c}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EffectPresetFolder\{602d88ca-3cdd-4ae3-ade3-7af0c7500898}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\AudioFile\{c2f026ac-7c17-4e55-b224-3aea7c14ac21}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\AudioFile\{22b0a6fd-7540-4ee1-a493-5ca85f358a5e}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{73def602-a3a8-4966-a5ca-3a269f1b91fd}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Workspace.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\ParameterPresetFolder\{86a70bf0-e7da-4f46-8212-aedd51a210aa}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Mixer.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\EventFolder\{00674f6b-50db-432a-a309-a761cb6c88f2}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\AudioFile\{9372ab9e-3330-4b4d-b6ec-0f67492ef9ee}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Return\{6ebe7c4e-fcb3-476b-a9e0-51da89a8b74f}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Asset\{0215f46e-0dd1-40b0-9820-2bc766b5837d}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Group\{1ac2731c-7d6d-4add-be5f-d1c5afba57aa}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\ParameterPreset\{4c5b3619-f9d5-4a2b-b9d5-cddca6199943}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Platform\{3e7e1d2c-e564-4cda-a887-c12654f1c32a}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{ef024673-d93f-4001-aa27-a0e70e4013d7}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\BankFolder\{6f76266f-b88a-4aa4-996e-e76603f5da13}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Group\{e96167fb-e4ba-4219-b538-b13ce4f6f36d}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\AudioFile\{edee10f4-c105-4c50-81fb-c9643d6eab6f}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{3042ff81-aa64-461e-a9d5-7b8bb3778071}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Master.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\ParameterPreset\{8465d118-c2f3-488d-b71d-3031e651b058}.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{c3525259-00f9-4f57-acd2-f8569a428654}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Tags.xml" />
+    <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\Event\{cb862275-acc9-45b2-9e84-ef0e4e6f95d4}.xml" />
     <None Include="Assets\Sound\FMOD TPLSQ\tplsq\Metadata\SnapshotGroup\{64326914-863c-45d5-91be-759c6d8f78e7}.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Documents/tplsq jam/git/tplsq/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
